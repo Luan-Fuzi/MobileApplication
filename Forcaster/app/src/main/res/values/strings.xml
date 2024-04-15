@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Forcaster</string>
+    <string name="key">9e0da5e42fbb4fbdb64522ec0d94f0ae</string>
+    <string name="qweather">https://devapi.qweather.com/</string>
+</resources>

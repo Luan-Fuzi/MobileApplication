@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/green">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/title_B"
+        android:textColor="@color/white"
+        android:textSize="40dp">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="3dp"
+            android:background="@color/half_green"
+            android:text="@string/start_btn_A"
+            android:textColor="@color/white">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="3dp"
+            android:background="@color/half_green"
+            android:text="@string/start_btn_C"
+            android:textColor="@color/white">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="3dp"
+            android:background="@color/half_green"
+            android:text="@string/finish_btn_B"
+            android:textColor="@color/white">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="3dp"
+            android:background="@color/half_green"
+            android:text="@string/dialog"
+            android:textColor="@color/white">
+
+        </Button>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp"
+        android:text="@string/lifecycle_method_list"
+        android:textSize="30dp"
+        android:textColor="@color/white">
+
+    </TextView>
+
+    <ListView
+        android:id="@+id/lifecycle_method_list"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:background="@color/white"
+        android:layout_marginHorizontal="5dp"
+        >
+
+    </ListView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp"
+        android:text="@string/activity_status"
+        android:textSize="30dp"
+        android:textColor="@color/white">
+
+    </TextView>
+
+    <ListView
+        android:id="@+id/activity_status"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginHorizontal="5dp"
+        android:background="@color/white">
+
+    </ListView>
+
+
+
+
+</LinearLayout>

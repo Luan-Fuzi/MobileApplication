@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Experiment1</string>
+
+    <string name="title_A">Activity A</string>
+    <string name="title_B">Activity B</string>
+    <string name="title_C">Activity C</string>
+
+    <string name="start_btn_A">Start A</string>
+    <string name="start_btn_B">Start B</string>
+    <string name="start_btn_C">Start C</string>
+
+    <string name="finish_btn_A">Finish A</string>
+    <string name="finish_btn_B">Finish B</string>
+    <string name="finish_btn_C">Finish C</string>
+
+    <string name="dialog">Dialog</string>
+
+    <string name="lifecycle_method_list">Lifecycle Method List</string>
+    <string name="activity_status">Activity Status</string>
+
+
+
+
+
+    <string name="dialog_info">Simple Dialog</string>
+    <string name="close_btn">Close</string>
+</resources>

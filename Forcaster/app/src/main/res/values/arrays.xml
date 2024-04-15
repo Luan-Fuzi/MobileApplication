@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="unit">
+        <item>摄氏度</item>
+        <item>华氏度</item>
+    </string-array>
+    <string-array name="send">
+        <item>关闭通知</item>
+        <item>开启通知</item>
+    </string-array>
+</resources>
